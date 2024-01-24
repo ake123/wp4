@@ -5,7 +5,7 @@
   "description": ["A dataset containing cultural employment growth data."],
   "identifier": ["https://example.com/datasets/cult_emp_growth_sex.csv"],
   "url": ["https://example.com/datasets/cult_emp_growth_sex.csv"],
-  "datePublished": ["2024-01-24"],
+  "datePublished": ["2024-01-23"],
   "creator": {
     "@type": ["Person"],
     "name": ["Your Name"],
