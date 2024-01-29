@@ -106,7 +106,7 @@ write.csv(cult_emp_growth_sex_data, file = csv_filename, row.names = FALSE)
 library(jsonlite)
 
 metadata <- list(
-  "@context" = "http://schema.org",
+  "@context" = "http://www.w3.org/ns/csvw",
   "@type" = "Dataset",
   "name" = "Cultural Employment Growth Data",
   "description" = "A dataset containing cultural employment growth data.",

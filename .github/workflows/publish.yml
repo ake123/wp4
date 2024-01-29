@@ -27,17 +27,12 @@ jobs:
           
       - uses: quarto-dev/quarto-actions/setup@v2
       
-      - name: Install rmarkdown
-        run: Rscript -e 'install.packages("rmarkdown")'
-        
       - name: Install eurostat
         run: Rscript -e 'install.packages("eurostat",  dependencies = TRUE)'
         
       - name: Install tidyverse
         run: Rscript -e 'install.packages("tidyverse",  dependencies = TRUE)'
         
-      - name: Install ggplot2
-        run: Rscript -e 'install.packages("ggplot2",  dependencies = TRUE)'
  
       - name: Render and Publish quarto
         uses: quarto-dev/quarto-actions/publish@v2
@@ -51,5 +46,5 @@ jobs:
           git config --local user.name "$GITHUB_ACTOR"
           git config --local user.email "$GITHUB_ACTOR@users.noreply.github.com"
           git add .
-          git commit -m "Re-render bookdown documents" || echo "No changes to commit"
+          git commit -m "render bookdown documents" || echo "No changes to commit"
           git push origin || echo "No changes to commit"

@@ -1,5 +1,5 @@
 {
-  "@context": ["http://schema.org"],
+  "@context": ["http://www.w3.org/ns/csvw"],
   "@type": ["Dataset"],
   "name": ["Cultural Employment Growth Data"],
   "description": ["A dataset containing cultural employment growth data."],
