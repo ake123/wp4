@@ -1,6 +1,27 @@
 project:
-  title: "OpenMUSE"
+  type: book
 
-editor: visual
+format: 
+  html:
+    theme:
+      light: flatly
+      dark: darkly
 
+book:
+  title: "WP4"
+  repo-actions: issue
+  sidebar:
+    border: true
+    title: OpenMuse
+    tools:
+      - icon: twitter
+        href: https://twitter.com/
+      - icon: facebook
+        href: https://www.facebook.com/
+
+  chapters:
+    - index.qmd
+    - Story_1.qmd
+    - Story_2.qmd
+    
 
